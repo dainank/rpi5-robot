@@ -1,7 +1,6 @@
 # pi-robot
 
 # Setup
-
 ## SSH Pi
 `ssh {username}@{hostname}`
 
@@ -48,3 +47,9 @@ echo "alias activate='source ~/pyenv/bin/activate'" >> ~/.bashrc
 >>> from adafruit_crickit import crickit
 >>> crickit.onboard_pixel.fill(0xFF0000)
 ```
+
+# Running
+## Activating Environment After Setup
+
+`activate`
+`python`
