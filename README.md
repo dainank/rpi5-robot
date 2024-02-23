@@ -50,6 +50,6 @@ echo "alias activate='source ~/pyenv/bin/activate'" >> ~/.bashrc
 
 # Running
 ## Activating Environment After Setup
-
 `activate`
+
 `python`
