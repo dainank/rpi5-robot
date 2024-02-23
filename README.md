@@ -30,3 +30,21 @@ sudo apt upgrade
 sudo apt autoremove
 sudo reboot
 ```
+
+## Install Libraries
+```bash
+python3 -m venv ~/pyenv
+~/pyenv/bin/pip install adafruit-circuitpython-crickit
+```
+
+## Activate Python Environment
+```bash
+echo "alias activate='source ~/pyenv/bin/activate'" >> ~/.bashrc
+~/pyenv/bin/python
+```
+
+## Test Color Change
+```bash
+>>> from adafruit_crickit import crickit
+>>> crickit.onboard_pixel.fill(0xFF0000)
+```
