@@ -1,13 +1,18 @@
 # pi-robot
 
+# Running
+> If errors are thrown, check setup below!
+
+## Activating Environment After Setup
+`activate`
+`python`
+
 # Setup
 ## SSH Pi
 `ssh {username}@{hostname}`
-
 You might need to provide that user password.
 
 ## Check Cricket Board
-
 `i2cdetect -y 1`
 ```sh
 $ i2cdetect -y 1
@@ -31,6 +36,9 @@ sudo reboot
 ```
 
 ## Install Libraries
+> Check if it is done by typing `activate` in terminal and seeing the following:
+![PyEnv](./assets/image.jpg)
+
 ```bash
 python3 -m venv ~/pyenv
 ~/pyenv/bin/pip install adafruit-circuitpython-crickit
@@ -48,8 +56,4 @@ echo "alias activate='source ~/pyenv/bin/activate'" >> ~/.bashrc
 >>> crickit.onboard_pixel.fill(0xFF0000)
 ```
 
-# Running
-## Activating Environment After Setup
-`activate`
 
-`python`
