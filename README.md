@@ -65,3 +65,6 @@ import os
 os.environ['ROBO_DC_ADJUST_R']
 '0.8'
 ```
+
+# Useful Tooling
+- https://docs.python.org/3/library/functools.html
