@@ -1,5 +1,3 @@
-# pi-robot
-
 # Running
 > If errors are thrown, check setup below!
 
