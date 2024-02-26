@@ -4,8 +4,8 @@
 > If errors are thrown, check setup below!
 
 ## Activating Environment After Setup
-`activate`
-`python`
+1. `activate`
+2. `python`
 
 # Setup
 ## SSH Pi
