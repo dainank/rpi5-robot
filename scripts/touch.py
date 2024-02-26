@@ -4,10 +4,11 @@ from adafruit_crickit import crickit
  
 RGB = dict(red=0xFF0000, green=0x00FF00, blue=0x0000FF)
 POLL_DELAY = 0.1
+CONST_SPEED = 0.25
  
 crickit.onboard_pixel.brightness = 0.01
 while True:
-    throttle = 1 if crickit.touch_1.value else 0
+    throttle = CONST_SPEED if crickit.touch_1.value else 0
     color = RGB['red'] if crickit.touch_1.value else RGB['blue']
     crickit.onboard_pixel.fill(color)
     crickit.dc_motor_1.throttle = throttle

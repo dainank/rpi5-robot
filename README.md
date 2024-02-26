@@ -32,7 +32,6 @@ sudo apt upgrade
 sudo apt autoremove
 sudo reboot
 ```
-
 ## Install Libraries
 > Check if it is done by typing `activate` in terminal and seeing the following:
 ![PyEnv](./assets/image.jpg)
@@ -54,4 +53,15 @@ echo "alias activate='source ~/pyenv/bin/activate'" >> ~/.bashrc
 >>> crickit.onboard_pixel.fill(0xFF0000)
 ```
 
+## Env Variables
 
+- `env` - view all
+- `export ROBO_DC_ADJUST_R="0.8"`
+- `env | grep ROBO_`
+
+Import the vars like so:
+```python
+import os
+os.environ['ROBO_DC_ADJUST_R']
+'0.8'
+```
