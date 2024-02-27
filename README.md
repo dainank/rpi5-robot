@@ -66,5 +66,12 @@ os.environ['ROBO_DC_ADJUST_R']
 '0.8'
 ```
 
+# GIT Corruption
+```bash
+find .git/objects/ -type f -empty | xargs rm
+git fetch -p
+git fsck --full
+```
+
 # Useful Tooling
 - https://docs.python.org/3/library/functools.html
