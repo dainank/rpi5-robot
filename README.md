@@ -39,6 +39,7 @@ sudo reboot
 ```bash
 python3 -m venv ~/pyenv
 ~/pyenv/bin/pip install adafruit-circuitpython-crickit
+~/pyenv/bin/pip install tornado
 ```
 
 ## Activate Python Environment
