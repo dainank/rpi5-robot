@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 import cmd
-import motor
- 
+print(__file__)
+from libs import motor
+
 def get_kwargs(line):
     kwargs = dict()
     items = line.split()
