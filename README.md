@@ -1,5 +1,3 @@
-H~Personal project with friend, thus limited documentation.~O
-
 # Running
 > If errors are thrown, check setup below!
 
